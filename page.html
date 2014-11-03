@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/page.css">
+  <!--[if gte IE 9]
+  <style type="text/css"> .button, .progress_bar_load { filter: none; }</style>
+  <![endif]-->
+</head>
+<body>
+
+<div class="page">
+	<div class="left-col">
+		<p>☀TutuRu - крупнейший сервис поиска, бронирования и покупки авиабилетов и ж/д билетов.</p>
+		<p>Наша цель проста - делать наших клиентов счастливыми, а их путешествия незабываемыми. Любое путешествие начинается с поиска подходящих билетов и бронирования гостиниц. А мы делаем это качественно, обеспечивая самую лучшую поддержку благодаря собственному контакт-центру.</p>
+	</div><div class="right-col">
+		<nav>
+			<a href="">Личный кабинет</a>
+			<a href="">Раздел 1</a>
+			<a href="">Раздел 2</a>
+			<a href="">Раздел 3</a>
+			<a href="">Раздел 4</a>
+			<a href="">Раздел 5</a>
+		</nav>
+		<div class="form-wrapper">
+			<div class="form-progress">
+				<span>5</span><span>4</span><span class="active">3</span><span>2</span><span>1</span>
+			</div>
+			<h2>Заполните форму</h2>
+			
+			<form action="" method="get">
+				<fieldset>
+					<legend>Общая информация</legend>
+					<ul class="form">
+						<li>
+							<label for="surname">Фамилия</label>
+							<input type="text" id="surname" name="surname">
+						</li>
+						<li>
+							<label for="name">Имя</label>
+							<input type="text" id="name" name="name">
+						</li>
+						<li>
+							<label for="middlename">Отчество</label>
+							<input type="text" id="middlename" name="middlename">
+						</li>
+						<li>
+							<label for="changename">Меняли фамилию?</label>
+							<input type="radio" id="radio1" name="changename">
+							<label for="radio1"><span>Да</span></label>
+							<input type="radio" id="radio2" name="changename" checked>
+							<label for="radio2"><span>Нет</span></label>
+						</li>
+						<li>
+							<label for="sex">Пол</label>
+							<input type="radio" id="radio3" name="sex" checked>
+							<label for="radio3"><span>Муж</span></label>
+							<input type="radio" id="radio4" name="sex">
+							<label for="radio4"><span>Жен</span></label>
+						</li>
+						<li>
+							<label for="marital">Семейное положение</label>
+							<select id="marital" name="marital" class="select"><option value="1">Женат / Замужем</option></select>
+						</li>
+						<li>
+							<label for="citizenship">Гражданство</label>
+							<select id="citizenship" class="select"><option value="ru">Российская Федерация</option></select>
+						</li>
+						<li>
+							<label for="DOB1">Дата рождения</label>
+							<select id="DOB1" name="DOBDay" class="select day">
+								<option value="11">11</option></select><select id="DOB2" name="DOBMonth" class="select month">
+								<option value="06">июня</option></select><select id="DOB3" name="DOBYear" class="select year">
+								<option value="1970">1970</option>
+							</select>
+						</li>
+						<li>
+							<label for="placebirth">Место рождения</label>
+							<input type="text" id="placebirth" name="placebirth">
+							<span class="sample">Например, Россия, Комсомольск-на-Амуре</span>
+						</li>
+					</ul>
+					<div class="buttons">
+						<input type="submit" value="Далее &#8594;" class="button btn-right">
+						<input type="submit" value="&#8592; Назад" class="button btn-left">
+					</div>
+				</fieldset>
+			</form>
+			
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
